@@ -19,6 +19,7 @@ body {
 
 .content {
   width: 1170px;
+  max-width: calc(100vw - 46px);
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,16 +30,17 @@ a {
 }
 
 .btn {
+  --height-text-center: 68px;
   display: inline-block;
   min-width: 186px;
-  height: 68px;
+  height: var(--height-text-center);
   padding: 0 8px;
   color: #fff;
   background-color: var(--primary-color);
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
-  line-height: normal;
+  line-height: var(--height-text-center);
   border-radius: 14px;
 }
 /* =====================header================== */
@@ -46,6 +48,9 @@ a {
 .header {
   padding-top: 44px;
   background-color: #fff;
+  position: sticky;
+  top: -44px;
+  z-index: 1;
 }
 
 .header .nav-bar {
@@ -96,11 +101,84 @@ a {
   color: var(--primary-color);
   height: 48px;
   min-width: 108px;
-  padding: 0 8px;
+  padding: 0 12px;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
   line-height: 48px;
   border-radius: 6px;
   border: 1px solid currentColor;
+}
+
+/* =========================hero=========================== */
+
+.hero {
+  padding: 42px 0 79px;
+  background-color: #fff;
+}
+
+.hero .body-hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero .body-hero .block-left {
+  width: 39%;
+  margin-right: 71px;
+}
+
+.hero .block-left .after {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero .block-left .title {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 116%;
+}
+
+.hero .block-left .desc {
+  width: 75%;
+  margin: 46px 0 52px;
+  color: #9da6a5;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177%;
+}
+
+.hero .cta {
+  display: flex;
+  align-items: center;
+}
+
+.hero .block-left .play {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  margin-left: 50px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0px 22px 50px 0px #0000000d;
+}
+
+.hero .body-hero .block-right {
+  position: relative;
+  width: 55%;
+}
+
+.hero .block-right .image {
+  display: block;
+  margin-left: auto;
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+}
+
+.hero .block-right .item1 {
 }
