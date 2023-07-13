@@ -110,6 +110,11 @@ a {
   border: 1px solid currentColor;
 }
 
+.header .cta .signup:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
 /* =========================hero=========================== */
 
 .hero {
@@ -180,5 +185,115 @@ a {
   object-fit: cover;
 }
 
-.hero .block-right .item1 {
+.hero .block-right .item {
+  position: absolute;
+}
+
+.hero .block-right .item.item-1 {
+  display: flex;
+  width: 157px;
+  align-items: center;
+  padding: 17px 25px;
+  left: 25px;
+  bottom: 407px;
+  border-radius: 18px;
+  background: #fefefd;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.item1__book {
+  position: relative;
+  margin-right: 16px;
+}
+
+.book__book-icon {
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 8px;
+  z-index: 1;
+}
+
+.block-right .desc {
+  color: #0d1111;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.block-right .item-2 {
+  width: 124px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  padding: 16px 25px 23px;
+  bottom: 46px;
+  left: 0;
+}
+
+.item-2 .desc {
+  text-align: center;
+  display: block;
+}
+
+.item-2 .schedule {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.item2 img {
+  display: block;
+}
+
+.schedule .final {
+  margin-top: 4px;
+  width: 26px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-right .item-3 {
+  padding: 17px 35px;
+  width: 207px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  bottom: 41px;
+  right: 45px;
+}
+
+.item-3 .student {
+  display: flex;
+}
+
+.item-3 .student .avatar {
+  width: 33px;
+  height: 33px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin-left: -7px;
+}
+
+.item-3 .student .avatar:nth-child(2) {
+  background-color: #ffc147;
+}
+.item-3 .student .avatar:nth-child(3) {
+  background-color: #ff947a;
+}
+.item-3 .student .avatar:nth-child(4) {
+  background-color: #bf83ff;
+}
+
+.item-3 .student .quantity {
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 33px;
+  font-size: 1rem;
+  font-weight: 500;
 }
