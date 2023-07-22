@@ -48,6 +48,13 @@ a {
   line-height: var(--height-text-center);
   border-radius: 14px;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* =====================header================== */
 
 .header {
@@ -364,4 +371,43 @@ a {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 168.75%;
+}
+
+/* ================COURSES========================= */
+
+.course {
+  margin-top: 10px;
+  padding: 70px 0;
+}
+
+.course-top__header {
+  width: 56%;
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.course-top__title {
+  margin: 18px 0;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.course-top__desc {
+  width: 44%;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 177.778%;
+}
+
+.course-top__more {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: underline;
 }
