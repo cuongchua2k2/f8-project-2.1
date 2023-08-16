@@ -535,3 +535,76 @@ a {
   font-weight: 400;
   line-height: normal;
 }
+
+/* ============================FEEDBACK======================== */
+
+.feedback {
+  margin-top: 124px;
+  padding: 70px 0;
+}
+
+.feedback-left {
+  width: 36%;
+}
+
+.feedback__icon {
+  margin-top: 37px;
+}
+
+.feedback__content {
+  margin-top: 26px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.feedback__name {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.feedback__rectangle {
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background-color: #070707;
+}
+
+.feedback__position {
+  margin-left: 5px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.feedback__strong {
+  color: #070707;
+  font-weight: 500;
+}
+
+.feedback__chevon {
+  margin-top: 52px;
+  display: flex;
+}
+
+.chevon {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.chevon__right {
+  margin-left: 30px;
+}
+
+.chevon:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+}
