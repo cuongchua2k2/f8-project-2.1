@@ -540,7 +540,7 @@ a {
 
 .feedback {
   margin-top: 124px;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 .feedback .content {
@@ -672,4 +672,31 @@ a {
   background-color: #bf83ff;
   right: 0;
   top: 19px;
+}
+
+/* =======================================END-CONTENT============================ */
+
+.end-content {
+  margin-top: 60px;
+  padding: 76px 0 88px;
+  background-color: #def6f5;
+}
+
+.end-content__left {
+  width: 40%;
+}
+
+.end-content__sub-title {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.end-content__desc {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
 }
